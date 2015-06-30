@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Calendar">
-                <param name="android-package" value="org.devgirl.calendar.Calendar"/>
+                <param name="android-package" value="com.example.plugin.Calendar"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Calendar.java" target-dir="src/org/devgirl/calendar" />      
+        <source-file src="src/android/Calendar.java" target-dir="src/com/example/myplugin" />      
      </platform>          
 </plugin>
